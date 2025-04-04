@@ -17,7 +17,30 @@ border: 5px solid blue ;
 padding: 20px;
 margin: 20px;
 border-radius: 20px;
-box-shadow: 10px 8px
+box-shadow: 10px 8px;
+}
+#one{
+    position:static;
+    float: right
+}
+#two{
+    position:relative;
+    top:-100px;
+    left: 300px;
+}
+#three{
+    background-color:aqua;
+    position: absolute;
+    left: 375px;
+}
+#four{
+    position:sticky; 
+    top: 0;
+    index: 100px
+}
+#five{
+    background-color:red;
+    left: 345px;
 }
 </style>
 </head>
@@ -27,5 +50,6 @@ box-shadow: 10px 8px
 <div id="two"></div>    
 <div id="three"></div>
 <div id="four"></div>
+<div id="five"></div>
 </body>
 </html>
